@@ -32,13 +32,17 @@ In 2019, I received a B.S. degree from Sun Yat-sen University (Guangzhou). Now I
   <br>
   **G. Xie**, Q. Li, C. Cui, etc.
   <br>
-  Proceedings of the International Symposium on Reliable Distributed Systems. SRDS2022 (CCF B).
+  Proceedings of the International Symposium on Reliable Distributed Systems.
+  <br>
+  SRDS2022 (CCF B).
 
 - **Mousika: enable general in-network intelligence in programmable switches by knowledge distillation**
   <br>
   **G. Xie**, Q. Li, Y. Dong, G. Duan, etc.
   <br>
-  Proceedings of the International Conference on Computer Communications. INFOCOM2022 (CCF A).
+  Proceedings of the International Conference on Computer Communications.
+  <br>
+  INFOCOM2022 (CCF A).
 
 - **Self-attentive deep learning method for online traffic classification and its interpretability**
   <br>
@@ -50,7 +54,9 @@ In 2019, I received a B.S. degree from Sun Yat-sen University (Guangzhou). Now I
   <br>
   **G. Xie**, Q. Li, Y. Jiang, T. Dai, G. Shen, R. Li, R. Sinnott, and S. Xia.
   <br>
-  Proceedings of the Workshop on Network Meets AI & ML, NetAI@SIGCOMM. NetAI2020 (CCF A Workshop).
+  Proceedings of the Workshop on Network Meets AI & ML, NetAI@SIGCOMM.
+  <br>
+  NetAI2020 (CCF A Workshop).
 
 ## Cooperation
 
