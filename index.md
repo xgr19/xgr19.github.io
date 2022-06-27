@@ -63,7 +63,7 @@ Hi, I'm Guorui Xie (**谢国锐** in Chinese). In 2019, I received a B.S. degree
 We are mainly exploring the solutions of in-network classification, security, and privacy protection via programmable switches and machine learning. If you find our works are interesting, please contact us at <a href = "mailto: {{ site.email }}">{{ site.email }}</a>. We are looking forward to any possible cooperation!
 <br>
 
-清华智能网络研究组（SIG）近三年学生毕业去向包括华为（天才少年）、字节、腾讯、阿里等，博士年薪100w+，硕士年薪50w+。平台强大（100+GPU集群，20+P4交换机等），补助充足（硕士3k+）。目前联合鹏城国家实验室长期招收优秀本科实习生（可推荐清华夏令营）：研究方向包括P4开发、深度学习模型轻量化、流量智能分类等；月补助1k+，论文发表奖励5k~1w；可远程实习；长期实习（半年+），有论文/竞赛/项目经历者优先。可附简历详询：<a href = "mailto: {{ site.email }}">{{ site.email }}</a>（邮件主题注明实习生）。
+清华智能网络研究组（SIG）近三年学生毕业去向包括华为（天才少年）、字节、腾讯、阿里等，博士年薪100w+，硕士年薪50w+。平台强大（100+GPU集群，20+P4交换机等），补助充足（硕士3k+）。**目前联合鹏城国家实验室长期招收优秀本科实习生（可推荐清华夏令营）**：研究方向包括P4开发、深度学习模型轻量化、流量智能分类等；月补助1k+，论文发表奖励5k~1w；可远程实习；长期实习（半年+），有论文/竞赛/项目经历者优先。可附简历详询：<a href = "mailto: {{ site.email }}">{{ site.email }}</a>（邮件主题注明实习生）。
 
 
 <!-- ## Services
