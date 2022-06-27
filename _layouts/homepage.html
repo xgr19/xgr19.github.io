@@ -14,8 +14,8 @@
 
     <link rel="icon" media="(prefers-color-scheme:dark)" href="{{ site.favicon_dark }}" type="image/png" />
     <link rel="icon" media="(prefers-color-scheme:light)" href="{{ site.favicon }}" type="image/png" />
-
     <script src="./assets/js/favicon-switcher.js" type="application/javascript"></script>
+    
     <!-- visitor count -->
     <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
 
@@ -24,6 +24,27 @@
     <link rel="stylesheet" href="./assets/css/style.css">
   </head>
   <body>
+  
+    <script src="./assets/js/vanilla-back-to-top.min.js"></script>
+    <script>addBackToTop({
+        backgroundColor: '#fff',
+        innerHTML: 'Back to Top',
+        textColor: '#333'
+      })
+    </script>
+    <style>
+        #back-to-top {
+          border: 1px solid #ccc;
+          border-radius: 0;
+          font-size: 15px;
+          width: 100px;
+          text-align: center;
+          line-height: 30px;
+          height: 30px;
+        }
+        #html {zoom: 130%;}
+    </style>
+
     <div class="wrapper">
       <header>
         
@@ -47,26 +68,6 @@
 
       </header>
       <section>
-
-      <script src="./assets/js/vanilla-back-to-top.min.js"></script>
-      <script>addBackToTop({
-          backgroundColor: '#fff',
-          innerHTML: 'Back to Top',
-          textColor: '#333'
-        })
-      </script>
-      <style>
-          #back-to-top {
-            border: 1px solid #ccc;
-            border-radius: 0;
-            font-size: 15px;
-            width: 100px;
-            text-align: center;
-            line-height: 30px;
-            height: 30px;
-          }
-      </style>
-
 
       {{ content }}
 
