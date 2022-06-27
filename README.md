@@ -1,40 +1,17 @@
-# Web of Profile https://xgr19.github.io/
+# The Minimal Light Theme
 
-## Fork from https://github.com/Hammie217/LatexJekyll
-
-### Title settings
-
- - title - Set the main page title
- - author -  Set the authors name on the title page. Removed if none defined.
- - date - Set the front page date. Removed if none defined.
- - abstract - Set the text for the abstract. Removed if none defined.
+[![LICENSE](https://img.shields.io/github/license/yaoyao-liu/minimal-light?style=flat-square&logo=creative-commons&color=EF9421)](https://github.com/yaoyao-liu/minimal-light/blob/main/LICENSE)
+[![gem](https://img.shields.io/gem/v/minimal-light?style=flat-square&logo=rubygems&color=E9573F)](https://rubygems.org/gems/minimal-light)
+[![Jekyll](https://img.shields.io/badge/jekyll-%3E%3D%203.5-orange.svg?style=flat-square&logo=jekyll)](https://jekyllrb.com/)
+[![Build Status](https://img.shields.io/travis/com/yaoyao-liu/minimal-light?style=flat-square&logo=travis-ci&color=3EAAAF)](https://travis-ci.com/yaoyao-liu/minimal-light)
 
 
-### Sections
+**This is the source code of my homepage. I build this website based on [yaoyao-liu](https://github.com/yaoyao-liu/minimal-light).**
+<br>
+Feel free to use and share the source code anywhere you like.
 
- - Section - Sets font styling of section. Requires manual numbering. `<p  class="Section">1 &ensp; Introduction</p>`
- - Sub Section - Sets font styling of subsection. Requires manual numbering. `<p  class="SubSection">1.2 &ensp; Text Styles</p>`
+## Modifications
 
-### Body settings
-
- - BodyText - Sets paragraph settings for single column. `<p  class="BodyText">`
- - BodyText2Col  - Sets paragraph settings for double colum. `<p  class="BodyText2Col">`
- - BodyText3Col  - Sets paragraph settings for triple column. `<p  class="BodyText3Col">`
- - Justified - Justifies text to take 100% of the width. `<p  class="Justified">`
-
-### Font sizes
-
- - tiny
- - scriptsize
- - footnotesize
- - small
- - normalsize
- - large
- - Large
- - LARGE
- - huge
- - HUGE
-
- ### Maths
-
- Maths is delivered using mathJax. An inline latex equation can be done with "\\( ... \\)" or on a new line using "\\[ ... \\]".
+- index.md
+- _config.yml
+- _layouts/homepage.html

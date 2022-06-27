@@ -1,0 +1,15 @@
+title: Guorui Xie
+position: Ph.D. Student
+affiliation: Tsinghua University
+email: xgr19@mails.tsinghua.edu.cn
+keywords: Guorui Xie homepage
+# google_scholar: https://scholar.google.com/
+github_link: https://github.com/xgr19
+# linkedin: https://www.linkedin.com/
+avatar: ./assets/img/avatar.png
+# 谷歌分析是由Google提供的免费增值网站分析服务，用于跟踪和报告网站流量
+# google_analytics: UA-111540567-4
+favicon: ./assets/img/favicon.png
+favicon_dark: ./assets/img/favicon-dark.png
+description: The homepage of Guorui Xie who major in computer network and machine learning at Tsinghua University.
+# remote_theme: yaoyao-liu/minimal-light
