@@ -4,7 +4,7 @@ layout: homepage
 
 ## About Me
 
-Hi, I'm Guorui Xie (<b>谢国锐</b> in Chinese). In 2019, I received a B.S. degree from Sun Yat-sen University (Guangzhou). Now I am a Ph.D. student in Computer Science and Technology at Tsinghua University (Shenzhen). My main research interests are in-network intelligence, P4 program development, and networking classifications based on deep learning.
+Hi, I'm Guorui Xie (<b>谢国锐</b> in Chinese). In 2019, I received a B.S. degree from [Sun Yat-sen University](https://www.sysu.edu.cn/sysuen/) (Guangzhou). Now I am a Ph.D. student in Computer Science and Technology at [Tsinghua University](https://www.cs.tsinghua.edu.cn/csen/) (Shenzhen). My main research interests are in-network intelligence, P4 program development, and networking classifications based on deep learning.
 
 <!-- ## Research Interests
 
