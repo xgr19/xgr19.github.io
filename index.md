@@ -48,7 +48,7 @@ Hi, I'm Guorui Xie (<b>谢国锐</b> in Chinese). In 2019, I received a B.S. deg
   <br>
   **G. Xie**, Q. Li, and Y. Jiang.
   <br>
-  Elsevier Computer Networks. CN2022 (CCF B).
+  Elsevier Computer Networks. CN2021 (CCF B).
 
 - **SAM: Self-attention based deep learning method for online traffic classification**
   <br>
