@@ -18,7 +18,7 @@ In 2019, I received a B.S. degree from Sun Yat-sen University (Guangzhou). Now I
 - **[Sept. 2019]** Our paper about few-shot learning is accepted to NeurIPS 2019.
 - **[Mar. 2019]** Our paper about few-shot learning is accepted to CVPR 2019. -->
 
-## Publications
+## Publication
 
 <!-- - **Mnemonics Training: Multi-Class Incremental Learning without Forgetting**
   <br>
