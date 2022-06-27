@@ -40,14 +40,17 @@
           line-height: 30px;
           height: 30px;
         }
-        #html {zoom: 130%;}
     </style>
 
     <div class="wrapper">
       <header>
         
         {% if site.avatar %}
-        <a class="image avatar"><img src="{{site.avatar}}" alt="avatar" onContextMenu="return false" /></a>
+<!--         <a class="image avatar"><img src="{{site.avatar}}" alt="avatar" onContextMenu="return false" /></a> -->
+        <img src="{{site.avatar}}"
+             alt="avatar"
+             width="108"
+             height="138">
         {% endif %}
 
         <h1>{{ site.title }}</h1> 
