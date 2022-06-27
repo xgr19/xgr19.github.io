@@ -15,3 +15,4 @@ Feel free to use and share the source code anywhere you like.
 - index.md
 - _config.yml
 - _layouts/homepage.html
+- _sass/minimal-light.scss

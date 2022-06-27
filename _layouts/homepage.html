@@ -48,7 +48,7 @@
         {% if site.avatar %}
 <!--         <a class="image avatar"><img src="{{site.avatar}}" alt="avatar" onContextMenu="return false" /></a> -->
         <img src="{{site.avatar}}"
-             alt="avatar"
+             alt="Photo"
              width="108"
              height="138">
         <br>
@@ -81,25 +81,14 @@
       </section>
       <footer>
         <div class="social-icons">
-
-<!--           {% if site.google_scholar %}
-          <a href="{{ site.google_scholar}}" target="_blank">
+          {% if site.google_scholar %}
+          <a titl="Google Scholar" alt="Google Scholar" href="{{ site.google_scholar}}" target="_blank">
             <i class="ai ai-google-scholar" style="font-size:1.6rem"></i>
           </a>
           {% endif %}
           {% if site.github_link %}         
-          <a href="{{ site.github_link }}" target="_blank">
+          <a titl="Github" alt="Github" href="{{ site.github_link }}" target="_blank">
             <i class="fab fa-github"></i>
-          </a>
-          {% endif %} -->
-          {% if site.google_scholar %}
-          <a href="{{ site.google_scholar}}" target="_blank">
-            <img src="./assets/img/google-scholar-50.png" alt="scholar" width="50" height="50">
-          </a>
-          {% endif %}
-          {% if site.github_link %}         
-          <a href="{{ site.github_link }}" target="_blank">
-            <img src="./assets/img/github-50.png" alt="github" width="50" height="50">
           </a>
           {% endif %}
         </div>
