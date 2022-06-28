@@ -46,7 +46,7 @@ Hi, I'm Guorui Xie (<b>谢国锐</b> in Chinese). In 2019, I received a B.S. deg
   <br>
   Elsevier Computer Networks. CN2021 (CCF B).
 
-- **SAM: Self-attention based deep learning method for online traffic classification**
+- **SAM: self-attention based deep learning method for online traffic classification**
   <br>
   **G. Xie**, Q. Li, Y. Jiang, T. Dai, G. Shen, R. Li, R. Sinnott, and S. Xia.
   <br>
