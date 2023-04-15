@@ -4,7 +4,7 @@ layout: homepage
 
 ## About Me
 
-Hi, I'm Guorui Xie (<b>谢国锐</b> in Chinese). In 2019, I received a B.S. degree from [Sun Yat-sen University](https://www.sysu.edu.cn/sysuen/) (Guangzhou). Now I am a Ph.D. student in Computer Science and Technology at [Tsinghua University](https://www.cs.tsinghua.edu.cn/csen/) (Shenzhen). My main research interests are in-network intelligence, P4 program development, and networking classifications based on deep learning.
+Hi, I'm Guorui Xie (<b>谢国锐</b> in Chinese). In 2019, I received a B.S. degree from [Sun Yat-sen University](https://www.sysu.edu.cn/sysuen/). Now I am a Ph.D. candidate in Computer Science and Technology at [Tsinghua University](https://www.cs.tsinghua.edu.cn/csen/). My main research interests are programmable switch applications and networking classifications based on machine learning.
 
 <!-- ## Research Interests
 
@@ -27,6 +27,12 @@ Hi, I'm Guorui Xie (<b>谢国锐</b> in Chinese). In 2019, I received a B.S. deg
   IEEE Conference on Computer Vision and Pattern Recognition. **CVPR 2020**.
   <br>
   [[PDF](https://arxiv.org/pdf/2002.10211.pdf)] [[Code](https://github.com/yaoyao-liu/mnemonics)] <strong><i style="color:#e74d3c">Oral Presentation</i></strong> -->
+  
+- **Efficient flow recording with InheritSketch on programmable switches**
+  <br>
+  **G. Xie**, Q. Li, G. Duan, etc.
+  <br>
+  International Conference on Distributed Computing Systems, ICDCS2023 (CCF B).
 
 - **Soter: deep learning enhanced in-network attack detection based on programmable switches**
   <br>
@@ -44,7 +50,7 @@ Hi, I'm Guorui Xie (<b>谢国锐</b> in Chinese). In 2019, I received a B.S. deg
   <br>
   **G. Xie**, Q. Li, and Y. Jiang.
   <br>
-  Elsevier Computer Networks. CN2021 (CCF B).
+  Elsevier Computer Networks, CN2021 (CCF B).
 
 - **SAM: self-attention based deep learning method for online traffic classification**
   <br>
