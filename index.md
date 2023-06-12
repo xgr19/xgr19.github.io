@@ -4,7 +4,7 @@ layout: homepage
 
 ## About Me
 
-Hi, I'm Guorui Xie (<b>谢国锐</b> in Chinese). In 2019, I received a B.S. degree from [Sun Yat-sen University](https://www.sysu.edu.cn/sysuen/) (Guangzhou). Now I am a Ph.D. student in Computer Science and Technology at [Tsinghua University](https://www.cs.tsinghua.edu.cn/csen/) (Shenzhen). My main research interests are programmable switch applications and networking classifications based on machine learning.
+Hi, I'm Guorui Xie (<b>谢国锐</b> in Chinese). In 2019, I received a B.S. degree from [Sun Yat-sen University, China](https://www.sysu.edu.cn/sysuen/). Now I am a Ph.D. student in Computer Science and Technology at [Tsinghua University, China](https://www.cs.tsinghua.edu.cn/csen/). My main research interests are programmable switch applications and networking classifications based on machine learning.
 
 <!-- ## Research Interests
 
@@ -27,22 +27,28 @@ Hi, I'm Guorui Xie (<b>谢国锐</b> in Chinese). In 2019, I received a B.S. deg
   IEEE Conference on Computer Vision and Pattern Recognition. **CVPR 2020**.
   <br>
   [[PDF](https://arxiv.org/pdf/2002.10211.pdf)] [[Code](https://github.com/yaoyao-liu/mnemonics)] <strong><i style="color:#e74d3c">Oral Presentation</i></strong> -->
-  
+ 
+- **Empowering in-network classification in programmable switches by binary decision tree and knowledge distillation**
+  <br>
+  **G. Xie**, Q. Li, G. Duan, et al.
+  <br>
+  IEEE/ACM Transactions on Networking, ToN2023 (CCF A).
+
 - **Efficient flow recording with InheritSketch on programmable switches**
   <br>
-  **G. Xie**, Q. Li, G. Duan, etc.
+  **G. Xie**, Q. Li, G. Duan, et al.
   <br>
   International Conference on Distributed Computing Systems, ICDCS2023 (CCF B).
 
 - **Soter: deep learning enhanced in-network attack detection based on programmable switches**
   <br>
-  **G. Xie**, Q. Li, C. Cui, etc.
+  **G. Xie**, Q. Li, C. Cui, et al.
   <br>
   International Symposium on Reliable Distributed Systems, SRDS2022 (CCF B).
 
 - **Mousika: enable general in-network intelligence in programmable switches by knowledge distillation**
   <br>
-  **G. Xie**, Q. Li, Y. Dong, G. Duan, etc.
+  **G. Xie**, Q. Li, Y. Dong, G. Duan, et al.
   <br>
   International Conference on Computer Communications, INFOCOM2022 (CCF A).
 
