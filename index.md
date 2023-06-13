@@ -30,7 +30,7 @@ Hi, I'm Guorui Xie (<b>谢国锐</b> in Chinese). In 2019, I received a B.S. deg
  
 - **Empowering in-network classification in programmable switches by binary decision tree and knowledge distillation**
   <br>
-  **G. Xie**, Q. Li, G. Duan, et al.
+  **G. Xie**, Q. Li, G. Duan, J. Lin, et al.
   <br>
   IEEE/ACM Transactions on Networking, ToN2023 (CCF A).
 
