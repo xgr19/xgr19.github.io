@@ -18,7 +18,7 @@ Hi, I'm Guorui Xie (<b>谢国锐</b> in Chinese). In 2019, I received a B.S. deg
 - **[Sept. 2019]** Our paper about few-shot learning is accepted to NeurIPS 2019.
 - **[Mar. 2019]** Our paper about few-shot learning is accepted to CVPR 2019. -->
 
-## Publication
+## Publication (First author)
 
 <!-- - **Mnemonics Training: Multi-Class Incremental Learning without Forgetting**
   <br>
@@ -27,7 +27,19 @@ Hi, I'm Guorui Xie (<b>谢国锐</b> in Chinese). In 2019, I received a B.S. deg
   IEEE Conference on Computer Vision and Pattern Recognition. **CVPR 2020**.
   <br>
   [[PDF](https://arxiv.org/pdf/2002.10211.pdf)] [[Code](https://github.com/yaoyao-liu/mnemonics)] <strong><i style="color:#e74d3c">Oral Presentation</i></strong> -->
- 
+
+- **Dryad: deploying adaptive trees on programmable switches for networking classification**
+  <br>
+  **G. Xie**, Q. Li, J. Lin, et al.
+  <br>
+  IEEE International Conference on Network Protocols, ICNP2023 (TsinghuaCS A, CCF B).
+
+- **Efficient attack detection with multi-latency neural models on heterogeneous network devices**
+  <br>
+  **G. Xie**, Q. Li, H. Yan, et al.
+  <br>
+  IEEE International Conference on Network Protocols, ICNP2023 (TsinghuaCS A, CCF B).
+
 - **Empowering in-network classification in programmable switches by binary decision tree and knowledge distillation**
   <br>
   **G. Xie**, Q. Li, G. Duan, J. Lin, et al.
@@ -63,6 +75,20 @@ Hi, I'm Guorui Xie (<b>谢国锐</b> in Chinese). In 2019, I received a B.S. deg
   **G. Xie**, Q. Li, Y. Jiang, T. Dai, G. Shen, R. Li, R. Sinnott, and S. Xia.
   <br>
   Workshop on Network Meets AI & ML, NetAI@SIGCOMM, NetAI2020 (CCF A Workshop).
+
+## Publication (Co-author)
+
+- **In-Forest: distributed in-network classification with ensemble models**
+  <br>
+  J. Lin, Q. Li, **G. Xie**, et al.
+  <br>
+  IEEE International Conference on Network Protocols, ICNP2023 (TsinghuaCS A, CCF B).
+
+- **Pontus: finding waves in data streams**
+  <br>
+  Z Zhang, Q Li, G Duan, D Zhao, J Xiao, **G. Xie**, et al.
+  <br>
+  ACM SIGMOD (CCF A).
 
 ## Cooperation
 
