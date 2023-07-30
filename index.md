@@ -28,49 +28,49 @@ Hi, I'm Guorui Xie (<b>谢国锐</b> in Chinese). In 2019, I received a B.S. deg
   <br>
   [[PDF](https://arxiv.org/pdf/2002.10211.pdf)] [[Code](https://github.com/yaoyao-liu/mnemonics)] <strong><i style="color:#e74d3c">Oral Presentation</i></strong> -->
 
-- **Dryad: deploying adaptive trees on programmable switches for networking classification**
+1. **Dryad: deploying adaptive trees on programmable switches for networking classification**
   <br>
   **G. Xie**, Q. Li, J. Lin, et al.
   <br>
   IEEE International Conference on Network Protocols, ICNP2023 (TsinghuaCS A, CCF B).
 
-- **Efficient attack detection with multi-latency neural models on heterogeneous network devices**
+1. **Efficient attack detection with multi-latency neural models on heterogeneous network devices**
   <br>
   **G. Xie**, Q. Li, H. Yan, et al.
   <br>
   IEEE International Conference on Network Protocols, ICNP2023 (TsinghuaCS A, CCF B).
 
-- **Empowering in-network classification in programmable switches by binary decision tree and knowledge distillation**
+1. **Empowering in-network classification in programmable switches by binary decision tree and knowledge distillation**
   <br>
   **G. Xie**, Q. Li, G. Duan, J. Lin, et al.
   <br>
   IEEE/ACM Transactions on Networking, ToN2023 (CCF A).
 
-- **Efficient flow recording with InheritSketch on programmable switches**
+1. **Efficient flow recording with InheritSketch on programmable switches**
   <br>
   **G. Xie**, Q. Li, G. Duan, et al.
   <br>
   International Conference on Distributed Computing Systems, ICDCS2023 (CCF B).
 
-- **Soter: deep learning enhanced in-network attack detection based on programmable switches**
+1. **Soter: deep learning enhanced in-network attack detection based on programmable switches**
   <br>
   **G. Xie**, Q. Li, C. Cui, et al.
   <br>
   International Symposium on Reliable Distributed Systems, SRDS2022 (CCF B).
 
-- **Mousika: enable general in-network intelligence in programmable switches by knowledge distillation**
+1. **Mousika: enable general in-network intelligence in programmable switches by knowledge distillation**
   <br>
   **G. Xie**, Q. Li, Y. Dong, G. Duan, et al.
   <br>
   International Conference on Computer Communications, INFOCOM2022 (CCF A).
 
-- **Self-attentive deep learning method for online traffic classification and its interpretability**
+1. **Self-attentive deep learning method for online traffic classification and its interpretability**
   <br>
   **G. Xie**, Q. Li, and Y. Jiang.
   <br>
   Elsevier Computer Networks, CN2021 (CCF B).
 
-- **SAM: self-attention based deep learning method for online traffic classification**
+1. **SAM: self-attention based deep learning method for online traffic classification**
   <br>
   **G. Xie**, Q. Li, Y. Jiang, T. Dai, G. Shen, R. Li, R. Sinnott, and S. Xia.
   <br>
