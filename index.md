@@ -4,7 +4,7 @@ layout: homepage
 
 ## About Me
 
-Hi, I'm Guorui Xie (<b>谢国锐</b> in Chinese). In 2019, I received a B.S. degree from [Sun Yat-sen University, China](https://www.sysu.edu.cn/sysuen/). Now I am a Ph.D. student in Computer Science and Technology at [Tsinghua University, China](https://www.cs.tsinghua.edu.cn/csen/). My main research interests are programmable switch applications and networking classifications based on machine learning.
+Hi, I'm Guorui Xie (<b>谢国锐</b> in Chinese). In 2019, I received a B.S. degree from [Sun Yat-sen University, China](https://www.sysu.edu.cn/sysuen/). Now I am a Ph.D. student (2019-2024) at [Tsinghua University, China](https://www.cs.tsinghua.edu.cn/csen/). My main research interests are programmable network and networking classification based on ML/DL. I'll go to [Italy](https://gianniantichi.github.io/) as a one-year visiting CSC student from Sept 2023.
 
 <!-- ## Research Interests
 
@@ -78,13 +78,13 @@ Hi, I'm Guorui Xie (<b>谢国锐</b> in Chinese). In 2019, I received a B.S. deg
 
 ## Publication (Co-author)
 
-- **In-Forest: distributed in-network classification with ensemble models**
+1. **In-Forest: distributed in-network classification with ensemble models**
   <br>
   J. Lin, Q. Li, **G. Xie**, et al.
   <br>
   IEEE International Conference on Network Protocols, ICNP2023 (TsinghuaCS A, CCF B).
 
-- **Pontus: finding waves in data streams**
+1. **Pontus: finding waves in data streams**
   <br>
   Z Zhang, Q Li, G Duan, D Zhao, J Xiao, **G. Xie**, et al.
   <br>
