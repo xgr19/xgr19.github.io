@@ -88,7 +88,7 @@ Hi, I'm Guorui Xie (<b>谢国锐</b> in Chinese). In 2019, I received a B.S. deg
   <br>
   Z Zhang, Q Li, G Duan, D Zhao, J Xiao, **G. Xie**, et al.
   <br>
-  ACM SIGMOD (CCF A).
+  ACM SIGMOD2023 (CCF A).
 
 ## Cooperation
 
