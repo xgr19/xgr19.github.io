@@ -4,7 +4,7 @@ layout: homepage
 
 ## About Me
 
-Hi, I'm Guorui Xie (<b>谢国锐</b> in Chinese). In 2019, I received a B.S. degree from [Sun Yat-sen University, China](https://www.sysu.edu.cn/sysuen/). Now I am a Ph.D. student (2019-2024) at [Tsinghua University, China](https://www.cs.tsinghua.edu.cn/csen/). My main research interests are programmable network and networking classification based on ML/DL. I'll go to [Italy](https://gianniantichi.github.io/) as a one-year visiting CSC student from Sept 2023.
+Hi, I'm Guorui Xie (<b>谢国锐</b> in Chinese). In 2019, I received a B.S. degree from [Sun Yat-sen University, China](https://www.sysu.edu.cn/sysuen/). Now I am a Ph.D. student (2019-2024) at [Tsinghua University, China](https://www.cs.tsinghua.edu.cn/csen/). My main research interests are programmable network and networking classification based on ML/DL. I'll go to [Italy](https://gianniantichi.github.io/) as a one-year visiting CSC student this year (2023).
 
 <!-- ## Research Interests
 
