@@ -4,7 +4,7 @@ layout: homepage
 
 ## About Me
 
-Hi, I'm Guorui Xie (<b>谢国锐</b> in Chinese). In 2019, I received a B.S. degree from [Sun Yat-sen University, China](https://www.sysu.edu.cn/sysuen/). Now I am a Ph.D. student (2019-2024) at [Tsinghua University, China](https://www.cs.tsinghua.edu.cn/csen/). My main research interests are programmable network and networking classification based on ML/DL. I'll go to [Italy](https://gianniantichi.github.io/) as a one-year visiting CSC student this year (2023).
+Hi, I'm Xie, Guorui (<b>谢, 国锐</b> in Chinese). In 2019, I received a B.S. degree from [Sun Yat-sen University, China](https://www.sysu.edu.cn/sysuen/). Now I am a Ph.D. student (2019-2024) at [Tsinghua University, China](https://www.cs.tsinghua.edu.cn/csen/). My main research interests are programmable network and networking classification based on ML/DL. I'll go to [Italy](https://gianniantichi.github.io/) as a one-year visiting CSC student this year (2023).
 
 <!-- ## Research Interests
 
@@ -18,7 +18,7 @@ Hi, I'm Guorui Xie (<b>谢国锐</b> in Chinese). In 2019, I received a B.S. deg
 - **[Sept. 2019]** Our paper about few-shot learning is accepted to NeurIPS 2019.
 - **[Mar. 2019]** Our paper about few-shot learning is accepted to CVPR 2019. -->
 
-## Publication (First author)
+## Publication (First Author)
 
 <!-- - **Mnemonics Training: Multi-Class Incremental Learning without Forgetting**
   <br>
@@ -30,49 +30,33 @@ Hi, I'm Guorui Xie (<b>谢国锐</b> in Chinese). In 2019, I received a B.S. deg
 
 1. **Dryad: deploying adaptive trees on programmable switches for networking classification**
   <br>
-  **G. Xie**, Q. Li, J. Lin, et al.
-  <br>
   IEEE International Conference on Network Protocols, ICNP2023 (TsinghuaCS A, CCF B).
 
 1. **Efficient attack detection with multi-latency neural models on heterogeneous network devices**
-  <br>
-  **G. Xie**, Q. Li, H. Yan, et al.
   <br>
   IEEE International Conference on Network Protocols, ICNP2023 (TsinghuaCS A, CCF B).
 
 1. **Empowering in-network classification in programmable switches by binary decision tree and knowledge distillation**
   <br>
-  **G. Xie**, Q. Li, G. Duan, J. Lin, et al.
-  <br>
   IEEE/ACM Transactions on Networking, ToN2023 (CCF A).
 
 1. **Efficient flow recording with InheritSketch on programmable switches**
-  <br>
-  **G. Xie**, Q. Li, G. Duan, et al.
   <br>
   International Conference on Distributed Computing Systems, ICDCS2023 (CCF B).
 
 1. **Soter: deep learning enhanced in-network attack detection based on programmable switches**
   <br>
-  **G. Xie**, Q. Li, C. Cui, et al.
-  <br>
   International Symposium on Reliable Distributed Systems, SRDS2022 (CCF B).
 
 1. **Mousika: enable general in-network intelligence in programmable switches by knowledge distillation**
-  <br>
-  **G. Xie**, Q. Li, Y. Dong, G. Duan, et al.
   <br>
   International Conference on Computer Communications, INFOCOM2022 (CCF A).
 
 1. **Self-attentive deep learning method for online traffic classification and its interpretability**
   <br>
-  **G. Xie**, Q. Li, and Y. Jiang.
-  <br>
   Elsevier Computer Networks, CN2021 (CCF B).
 
 1. **SAM: self-attention based deep learning method for online traffic classification**
-  <br>
-  **G. Xie**, Q. Li, Y. Jiang, T. Dai, G. Shen, R. Li, R. Sinnott, and S. Xia.
   <br>
   Workshop on Network Meets AI & ML, NetAI@SIGCOMM, NetAI2020 (CCF A Workshop).
 
