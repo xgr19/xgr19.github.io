@@ -8,7 +8,7 @@ My name is Xie, Guorui (<b>谢国锐</b> in Chinese). In 2019, I received a B.E.
 
 My main research interest is traffic analysis on programmable network devices, including 1) deploy customized machine learning models to conduct high-accuracy, low-latency traffic analysis; 2) design the real-time, high-throughput traffic feature obfuscation to prevent traffic analysis attacks; 3) develop the high-accuracy, real-time traffic measurement and scheduling system.
 
-I will graduate in 2024, please email me if you have suitable offers! My resume is: [English CV](https://github.com/xgr19/xgr19.github.io/blob/main/CVs/English_CV.pdf)/[Chinese CV](https://github.com/xgr19/xgr19.github.io/blob/main/CVs/Chinese_CV.pdf).
+I will graduate in 2024, please email me if you have suitable offers! My resume in [English](https://cloud.tsinghua.edu.cn/f/cee519ea3f3d444ba74a/)/[Chinese](https://cloud.tsinghua.edu.cn/f/cbd6f6a5a1f44faca9fa/).
 
 
 ## Publication (First author)
