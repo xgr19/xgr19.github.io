@@ -4,19 +4,12 @@ layout: homepage
 
 ## About Me
 
-Hi, I'm Guorui Xie (<b>谢国锐</b> in Chinese). In 2019, I received a B.S. degree from [Sun Yat-sen University, China](https://www.sysu.edu.cn/sysuen/). Now I am a Ph.D. student (2019-2024) at [Tsinghua University, China](https://www.cs.tsinghua.edu.cn/csen/). My main research interests are programmable network and networking classification based on ML/DL. I'll go to [Italy](https://gianniantichi.github.io/) as a one-year visiting CSC student this year (2023).
+My name is Xie, Guorui (<b>谢国锐</b> in Chinese). In 2019, I received a B.E. degree from [Sun Yat-sen University, China](https://www.sysu.edu.cn/sysuen/). Now I am a Ph.D. student (2019-2024) at [Tsinghua University, China](https://www.cs.tsinghua.edu.cn/csen/), also a visiting CSC student at [Polimi](https://gianniantichi.github.io/).
 
-<!-- ## Research Interests
+My main research interest is traffic analysis on programmable network devices, including 1) deploy customized machine learning models to conduct high-accuracy, low-latency traffic analysis; 2) design the real-time, high-throughput traffic feature obfuscation to prevent traffic analysis attacks; 3) develop the high-accuracy, real-time traffic measurement and scheduling system.
 
-- **Computer Vision:** image recognition, image generation, video captioning
-- **Machine Learning:** meta-learning, incremental learning, transfer learning -->
+I will graduate in 2024, please email me if you have suitable offers! My resume is: [English CV](https://github.com/xgr19/xgr19.github.io/blob/main/CVs/English_CV.pdf)/[Chinese CV](https://github.com/xgr19/xgr19.github.io/blob/main/CVs/Chinese_CV.pdf).
 
-<!-- ## News
-
-- **[Feb. 2020]** Our paper about incremental learning is accepted to CVPR 2020.
-- **[Feb. 2020]** We will host the ACM Multimedia Asia 2020 conference in Singapore!
-- **[Sept. 2019]** Our paper about few-shot learning is accepted to NeurIPS 2019.
-- **[Mar. 2019]** Our paper about few-shot learning is accepted to CVPR 2019. -->
 
 ## Publication (First author)
 
@@ -27,6 +20,12 @@ Hi, I'm Guorui Xie (<b>谢国锐</b> in Chinese). In 2019, I received a B.S. deg
   IEEE Conference on Computer Vision and Pattern Recognition. **CVPR 2020**.
   <br>
   [[PDF](https://arxiv.org/pdf/2002.10211.pdf)] [[Code](https://github.com/yaoyao-liu/mnemonics)] <strong><i style="color:#e74d3c">Oral Presentation</i></strong> -->
+
+1. **Generating neural networks for diverse networking classification tasks via hardware-aware neural architecture search**
+  <br>
+  **G. Xie**, Q. Li, Z. Shi, et al.
+  <br>
+  IEEE Transactions on Computers, TC2023 (CCF A).
 
 1. **Dryad: deploying adaptive trees on programmable switches for networking classification**
   <br>
@@ -90,11 +89,7 @@ Hi, I'm Guorui Xie (<b>谢国锐</b> in Chinese). In 2019, I received a B.S. deg
   <br>
   ACM SIGMOD2023 (CCF A).
 
-## Cooperation
-
-We are mainly exploring the solutions of in-network classification, security, and privacy protection via programmable switches and machine learning. If you find our works are interesting, please contact us at <a href = "mailto: {{ site.email }}">{{ site.email }}</a>. We are looking forward to any possible cooperation!
-<br>
-
+## 实习生招聘
 清华智能网络研究组（SIG）近三年学生毕业去向包括华为（天才少年）、字节、腾讯、阿里等，博士年薪100w+，硕士年薪50w+。平台强大（100+GPU集群，20+P4交换机等），补助充足（硕士3k+）。<b>目前联合鹏城国家实验室长期招收优秀本科实习生（可推荐清华夏令营）</b>：研究方向包括P4开发、深度学习模型轻量化、流量智能分类等；月补助1k+，论文发表奖励5k~1w；可远程实习；长期实习（半年+），有论文/竞赛/项目经历者优先。可附简历详询：<a href = "mailto: {{ site.email }}">{{ site.email }}</a>（邮件主题注明实习生）。
 
 

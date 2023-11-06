@@ -3,11 +3,11 @@ position: Ph.D. Student
 affiliation: Tsinghua University, China
 email: xgr19@mails.tsinghua.edu.cn
 keywords: Guorui Xie homepage Tsinghua University
-google_scholar: \#
+google_scholar: https://scholar.google.com/citations?user=DaHzpI0AAAAJ
 github_link: https://github.com/xgr19
 # linkedin: https://www.linkedin.com/
 avatar: ./assets/img/avatar.png
 # 谷歌分析是由Google提供的免费增值网站分析服务，用于跟踪和报告网站流量
 # google_analytics: UA-111540567-4
 favicon: ./assets/img/favicon.png
-description: Hello and welcome to my homepage! I am Guorui Xie, majoring in Computer Network and Machine Learning (Tsinghua University, China).
+description: welcome to my homepage! I am Guorui Xie, majoring in Computer Network and Machine Learning (Tsinghua University, China).
