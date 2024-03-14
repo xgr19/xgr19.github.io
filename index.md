@@ -4,14 +4,14 @@ layout: homepage
 
 ## About Me
 
-My name is Xie, Guorui (<b>谢国锐</b> in Chinese). In 2019, I received a B.E. degree from [Sun Yat-sen University, China](https://www.sysu.edu.cn/sysuen/). Now I am a Ph.D. student (2019-2024) at [Tsinghua University, China](https://www.cs.tsinghua.edu.cn/csen/), also a visiting CSC student at [Polimi](https://gianniantichi.github.io/).
+My name is Xie, Guorui (<b>谢国锐</b> in Chinese). In 2019, I received a B.E. degree from [SYSU, China](https://www.sysu.edu.cn/sysuen/). Now I am a Ph.D. student (2019-2024) at [THU, China](https://www.cs.tsinghua.edu.cn/csen/), also a visiting student at [Polimi, Italy](https://gianniantichi.github.io/).
 
-My main research interest is traffic analysis on programmable network devices, including 1) deploy customized machine learning models to conduct high-accuracy, low-latency traffic analysis; 2) design the real-time, high-throughput traffic feature obfuscation to prevent traffic analysis attacks; 3) develop the high-accuracy, real-time traffic measurement and scheduling system.
+My main research interest is traffic analysis on programmable network devices, including 1) deploy P4 based ML models for traffic analysis; 2) design the privacy-secured traffic obfuscation system; 3) develop traffic measurement and scheduling system.
 
-I will graduate in 2024, please email me if you have suitable offers! My resume in [English](https://cloud.tsinghua.edu.cn/f/cee519ea3f3d444ba74a/)/[Chinese](https://cloud.tsinghua.edu.cn/f/cbd6f6a5a1f44faca9fa/).
+I will graduate in 2024.12 and am on the job market now! My resume in [English](https://cloud.tsinghua.edu.cn/f/cee519ea3f3d444ba74a/)/[Chinese](https://cloud.tsinghua.edu.cn/f/cbd6f6a5a1f44faca9fa/).
 
 
-## Publication (First author)
+## First-Author Publication
 
 <!-- - **Mnemonics Training: Multi-Class Incremental Learning without Forgetting**
   <br>
@@ -75,6 +75,7 @@ I will graduate in 2024, please email me if you have suitable offers! My resume 
   <br>
   Workshop on Network Meets AI & ML, NetAI@SIGCOMM, NetAI2020 (CCF A Workshop).
 
+<!--
 ## Publication (Co-author)
 
 1. **In-Forest: distributed in-network classification with ensemble models**
@@ -91,7 +92,7 @@ I will graduate in 2024, please email me if you have suitable offers! My resume 
 
 ## 实习生招聘
 清华智能网络研究组（SIG）近三年学生毕业去向包括华为（天才少年）、字节、腾讯、阿里等，博士年薪100w+，硕士年薪50w+。平台强大（100+GPU集群，20+P4交换机等），补助充足（硕士3k+）。<b>目前联合鹏城国家实验室长期招收优秀本科实习生（可推荐清华夏令营）</b>：研究方向包括P4开发、深度学习模型轻量化、流量智能分类等；月补助1k+，论文发表奖励5k~1w；可远程实习；长期实习（半年+），有论文/竞赛/项目经历者优先。可附简历详询：<a href = "mailto: {{ site.email }}">{{ site.email }}</a>（邮件主题注明实习生）。
-
+-->
 
 <!-- ## Services
 
