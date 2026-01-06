@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<!-- <html lang="{{ site.lang | default: "en-US" }}"> -->
 <html>
   <head>
     <title>Guorui's Homepage</title>
@@ -6,8 +7,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <!-- Meta Description是对网站内容的一段简单描述。长度一般就是一两句话，出现在搜索引擎结果页面（SERP）中标题与URL的下方 -->
     <meta name="description" content="Hi! I'm Guorui Xie, an Assistant Prof in Pengcheng Lab, studying Computer Network and Machine Learning."/>
+    <!-- 类似这样的 meta 标签可能对于进入搜索引擎的索引有帮助 -->
     <meta name="keywords" content="Guorui Xie Tsinghua Pengcheng"/>
+    <!-- <link rel="icon" href="./assets/img/favicon.ico" type="image/png" /> -->
     <style type="text/css">
         /* 全局样式重置 */
         * {
@@ -130,15 +134,16 @@
             margin-top: 40px;
         }
 
-        /* Pageviews样式 */
+        /* Pageviews样式 - 移除边框 */
         .pageviews {
             color: #666;
             z-index: 99;
             background-color: #fff;
             padding: 10px;
             border-radius: 4px;
-            border: 1px solid #eee;
+            /* 移除边框：删除border属性 */
             display: block;
+            margin: 0 auto; /* 居中 */
         }
 
         /* 主内容区样式 */
@@ -355,7 +360,7 @@
                 Last updated by @豆包 2026.01<br>
             </div>
             
-            <!-- pageviews -->
+            <!-- pageviews - 已移除边框 -->
             <div class="pageviews">
                 <a href='https://clustrmaps.com/site/1bvjj'  title='Visit tracker'><img src='//clustrmaps.com/map_v2.png?cl=dfdfdf&w=220&t=tt&d=bNr_SmEfEa5Enp2HpkP06S1z1LQnycCx8SNBfTTgtY4&co=ffffff&ct=7b7b7b'/></a>
             </div>
