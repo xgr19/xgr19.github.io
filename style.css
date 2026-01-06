@@ -1,0 +1,238 @@
+/* 全局样式重置 */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* 页面基础样式 */
+body {
+    background-color: #ffffff;
+    max-width: 1400px; /* 增大页面最大宽度，适配更宽的导航 */
+    margin: 0 auto;
+    padding: 0 20px;
+    position: relative;
+    padding-bottom: 100px;
+}
+
+/* 顶部导航栏样式 - 核心修改：取消垂直居中，让文字下移 */
+.top-nav {
+    background-color: #ffffff;
+    border-bottom: 1px solid #eee;
+    padding: 10px 40px; /* 上下内边距保留，保证导航栏高度 */
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    width: 100vw; /* 强制占满整个视口宽度 */
+    display: flex;
+    justify-content: flex-end;
+    /* 1. 移除垂直居中：删除 align-items: center; */
+    /* align-items: center; 这行被删除，不再垂直居中 */
+}
+
+/* Logo样式 - 保持垂直居中（独立调整，不影响菜单） */
+.logo {
+    position: absolute;
+    left: 40px;
+    top: 50%;
+    transform: translateY(-50%); /* logo仍垂直居中，视觉更协调 */
+    z-index: 101;
+}
+.logo img {
+    display: block;
+    height: 35px;
+    width: auto;
+}
+
+/* 导航菜单样式 - 核心修改：让文字往下偏移 */
+.top-nav-menu {
+    margin-right: 40px;
+    /* 2. 给菜单容器添加上边距，让整体文字下移 */
+    margin-top: 12px; /* 可调整数值（6-12px）控制下移幅度 */
+}
+.top-nav-menu a {
+    color: rgb(43, 87, 154);
+    text-decoration: none;
+    margin-left: 40px; /* 菜单项间距保持宽间距 */
+    font-size: 16px;
+    /* 可选：也可以用padding-top单独调整文字 */
+    /* padding-top: 5px; */
+}
+.top-nav-menu a:hover {
+    text-decoration: underline;
+}
+
+/* 主体内容布局 */
+.content-wrapper {
+    display: flex;
+    gap: 40px;
+    padding-top: 80px; /* 适配导航栏高度，避免内容遮挡 */
+}
+
+/* 侧边栏样式 */
+.sidebar {
+    width: 250px;
+    text-align: center;
+    background-color: #ffffff;
+    padding: 10px 0;
+}
+.sidebar img {
+    width: 100%;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+.sidebar h1 {
+    display: block;
+    font-size: 20px;
+    color: rgb(43, 87, 154);
+    margin: 10px 0;
+}
+.sidebar .position {
+    margin: 10px 0;
+    font-size: 14px;
+}
+.sidebar .email {
+    font-size: 14px;
+    color: #333;
+}
+
+/* 底部版权信息样式 */
+.sidebar .copyright {
+    width: 100%;
+    text-align: center; /* 居中显示 */
+    font-size: 12px; /* 小字大小 */
+    color: #666; /* 浅灰色，不突兀 */
+    line-height: 1.4;
+    padding: 20px 0; /* 上下内边距，增加间距 */
+    border-top: 1px solid #eee; /* 顶部浅灰色分隔线，视觉更清晰 */
+    margin-top: 40px; /* 与Services板块保持间距 */
+}
+
+/* Pageviews样式（保留原有逻辑） */
+.pageviews {
+    position: fixed;
+    left: 20px;
+    bottom: 20px;
+    font-size: 12px;
+    color: #666;
+    z-index: 99;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #eee;
+    display: block;
+}
+
+/* 主内容区样式 */
+.main {
+    flex: 1;
+    background-color: #ffffff;
+    padding: 10px 0;
+}
+.section {
+    margin-bottom: 40px;
+    scroll-margin-top: 100px; /* 关键属性：滚动到该区域时，顶部预留100px空间 */
+}
+.section h2 {
+    font-size: 24px;
+    color: rgb(43, 87, 154);
+    margin-bottom: 15px;
+    padding-bottom: 5px; /* 无分隔线，仅保留内边距 */
+}
+.section p {
+    line-height: 1.6;
+    margin-bottom: 10px;
+    color: #333;
+}
+.section a {
+    color: rgb(43, 87, 154);
+    text-decoration: none;
+}
+.section a:hover {
+    text-decoration: underline;
+}
+
+/* 列表样式 */
+.news-list {
+    list-style: decimal;
+    padding-left: 20px;
+}
+.news-list li {
+    margin-bottom: 10px;
+    line-height: 1.6;
+    color: #333;
+}
+.pub-list {
+    list-style: decimal;
+    padding-left: 20px;
+}
+.pub-list li {
+    margin-bottom: 15px;
+    line-height: 1.6;
+    color: #333;
+}
+
+/* 论文标签样式 */
+.pub-tag {
+    display: inline-block;
+    background-color: #f0f5ff;
+    color: rgb(43, 87, 154);
+    font-size: 12px;
+    padding: 2px 8px;
+    border-radius: 12px;
+    margin: 0 4px 0 0;
+    border: 1px solid rgba(43, 87, 154, 0.2);
+}
+.pub-tag.important {
+  background-color: #ffe8cc;
+  color: #d9822b;
+  border: 1px solid rgba(208, 131, 87, 0.2);
+}
+.pub-tag.ccf {
+    background-color: #f8f9fa;
+    border-color: #dee2e6;
+    color: #495057;
+    border-width: 1px;
+}
+.tag-container {
+    display: block;
+    margin-top: 8px;
+}
+.news h2 span {
+    color: #ff6600;
+    font-size: 20px;
+}
+
+/* 移动端适配 */
+@media (max-width: 768px) {
+    .content-wrapper {
+        flex-direction: column;
+    }
+    .sidebar {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .pageviews {
+        display: none !important;
+    }
+    .pageviews img {
+        width: 100%;
+    }
+    /* 移动端导航栏适配：同步调整文字下移幅度 */
+    .top-nav {
+        padding: 10px 20px;
+    }
+    .logo {
+        left: 20px;
+    }
+    .top-nav-menu {
+        margin-right: 20px;
+        margin-top: 5px; /* 移动端下移幅度减小，适配窄导航栏 */
+    }
+    .top-nav-menu a {
+        margin-left: 20px;
+        font-size: 14px;
+    }
+}
