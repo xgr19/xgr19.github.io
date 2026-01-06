@@ -134,16 +134,17 @@
             margin-top: 40px;
         }
 
-        /* Pageviews样式 - 移除边框 */
+        /* Pageviews样式 - 移除边框 + 精准居中对齐 */
         .pageviews {
             color: #666;
             z-index: 99;
             background-color: #fff;
-            padding: 10px;
+            padding: 10px 0; /* 只保留上下内边距，移除左右内边距避免偏移 */
             border-radius: 4px;
-            /* 移除边框：删除border属性 */
             display: block;
-            margin: 0 auto; /* 居中 */
+            margin: 0 auto; /* 水平居中 */
+            width: 100%; /* 宽度与侧边栏内容一致 */
+            text-align: center; /* 确保内部图片也居中 */
         }
 
         /* 主内容区样式 */
