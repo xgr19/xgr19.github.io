@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-<!-- <html lang="{{ site.lang | default: "en-US" }}"> -->
 <html>
   <head>
     <title>Guorui's Homepage</title>
@@ -7,20 +6,327 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
-    <!-- Meta Description是对网站内容的一段简单描述。长度一般就是一两句话，出现在搜索引擎结果页面（SERP）中标题与URL的下方 -->
     <meta name="description" content="Hi! I'm Guorui Xie, an Assistant Prof in Pengcheng Lab, studying Computer Network and Machine Learning."/>
-    <!-- 类似这样的 meta 标签可能对于进入搜索引擎的索引有帮助 -->
     <meta name="keywords" content="Guorui Xie Tsinghua Pengcheng"/>
-    <!-- <link rel="icon" href="./assets/img/favicon.ico" type="image/png" /> -->
-    <link rel="stylesheet" href="./style.css">
+    <style type="text/css">
+        /* 全局样式重置 */
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        /* 页面基础样式 */
+        body {
+            background-color: #ffffff;
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 0 20px;
+            position: relative;
+            padding-bottom: 100px;
+        }
+
+        /* 顶部导航栏样式 - 彻底解决重叠：分区域布局 */
+        .top-nav {
+            background-color: #ffffff;
+            border-bottom: 1px solid #eee;
+            padding: 15px 20px;
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: 100;
+            width: 100vw;
+            /* 核心：分左右区域，避免logo和菜单重叠 */
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            /* 防止内容溢出 */
+            overflow: hidden;
+        }
+
+        /* Logo样式 - 固定宽度+不挤压 */
+        .logo {
+            /* 取消绝对定位，改用flex布局自然排列 */
+            flex: 0 0 auto;
+        }
+        .logo img {
+            display: block;
+            height: 35px;
+            width: auto;
+            max-width: 100%;
+        }
+
+        /* 导航菜单样式 - 自适应剩余空间 */
+        .top-nav-menu {
+            /* 核心：只占剩余空间，不挤压logo */
+            flex: 1;
+            display: flex;
+            justify-content: flex-end;
+            /* 允许菜单换行 */
+            flex-wrap: wrap;
+            /* 与logo保持间距 */
+            margin-left: 20px;
+            gap: 25px; /* 统一间距，替代margin-left */
+        }
+        .top-nav-menu a {
+            color: rgb(43, 87, 154);
+            text-decoration: none;
+            font-size: 16px;
+            white-space: nowrap;
+            /* 增加点击区域 */
+            padding: 5px 0;
+        }
+        .top-nav-menu a:hover {
+            text-decoration: underline;
+        }
+
+        /* 主体内容布局 */
+        .content-wrapper {
+            display: flex;
+            gap: 40px;
+            padding-top: 90px; /* 适配导航栏高度 */
+        }
+
+        /* 侧边栏样式 */
+        .sidebar {
+            width: 250px;
+            text-align: center;
+            background-color: #ffffff;
+            padding: 10px 20px; /* 增加左右内边距，防止内容贴边 */
+        }
+        /* 修复个人相片过大问题 */
+        .sidebar img.avatar {
+            max-width: 200px; /* 限制最大宽度 */
+            width: 100%;
+            border-radius: 4px;
+            margin: 10px auto; /* 居中并添加上下间距 */
+            display: block; /* 确保margin auto生效 */
+        }
+        .sidebar h1 {
+            display: block;
+            font-size: 20px;
+            color: rgb(43, 87, 154);
+            margin: 10px 0;
+        }
+        .sidebar .position {
+            margin: 10px 0;
+            font-size: 14px;
+        }
+        .sidebar .email {
+            font-size: 14px;
+            color: #333;
+        }
+
+        /* 底部版权信息样式 */
+        .sidebar .copyright {
+            width: 100%;
+            text-align: center;
+            font-size: 12px;
+            color: #666;
+            line-height: 1.4;
+            padding: 20px 0;
+            border-top: 1px solid #eee;
+            margin-top: 40px;
+        }
+
+        /* Pageviews样式 */
+        .pageviews {
+            color: #666;
+            z-index: 99;
+            background-color: #fff;
+            padding: 10px;
+            border-radius: 4px;
+            border: 1px solid #eee;
+            display: block;
+        }
+
+        /* 主内容区样式 */
+        .main {
+            flex: 1;
+            background-color: #ffffff;
+            padding: 10px 0;
+        }
+        .section {
+            margin-bottom: 40px;
+            scroll-margin-top: 100px;
+        }
+        .section h2 {
+            font-size: 24px;
+            color: rgb(43, 87, 154);
+            margin-bottom: 15px;
+            padding-bottom: 5px;
+        }
+        .section p {
+            line-height: 1.6;
+            margin-bottom: 10px;
+            color: #333;
+        }
+        .section a {
+            color: rgb(43, 87, 154);
+            text-decoration: none;
+        }
+        .section a:hover {
+            text-decoration: underline;
+        }
+
+        /* 列表样式 */
+        .news-list {
+            list-style: decimal;
+            padding-left: 20px;
+        }
+        .news-list li {
+            margin-bottom: 10px;
+            line-height: 1.6;
+            color: #333;
+        }
+        .pub-list {
+            list-style: decimal;
+            padding-left: 20px;
+        }
+        .pub-list li {
+            margin-bottom: 15px;
+            line-height: 1.6;
+            color: #333;
+        }
+
+        /* 论文标签样式 */
+        .pub-tag {
+            display: inline-block;
+            background-color: #f0f5ff;
+            color: rgb(43, 87, 154);
+            font-size: 12px;
+            padding: 2px 8px;
+            border-radius: 12px;
+            margin: 0 4px 0 0;
+            border: 1px solid rgba(43, 87, 154, 0.2);
+        }
+        .pub-tag.important {
+          background-color: #ffe8cc;
+          color: #d9822b;
+          border: 1px solid rgba(208, 131, 87, 0.2);
+        }
+        .pub-tag.ccf {
+            background-color: #f8f9fa;
+            border-color: #dee2e6;
+            color: #495057;
+            border-width: 1px;
+        }
+        .tag-container {
+            display: block;
+            margin-top: 8px;
+        }
+        .news h2 span {
+            color: #ff6600;
+            font-size: 20px;
+        }
+
+        /* ========== Students图片全尺寸适配：修复左侧gap问题 ========== */
+        .students-img-container {
+            width: 100%;
+            max-width: 600px;
+            /* 修复左侧gap：移除不必要的padding，调整margin */
+            margin: 0 0 0 0;
+            padding: 0;
+            /* 确保容器紧贴父元素 */
+            display: block;
+        }
+        .students-img-container img {
+            width: 100%;
+            height: auto;
+            max-width: 100%;
+            object-fit: contain;
+            border-radius: 4px;
+            /* 确保图片填满容器 */
+            display: block;
+        }
+
+        /* 响应式适配（按屏幕宽度梯度调整） */
+        @media (max-width: 992px) {
+            /* 中屏：缩小导航间距+字体 */
+            .top-nav-menu {
+                gap: 20px;
+            }
+            .top-nav-menu a {
+                font-size: 15px;
+            }
+            /* 中屏缩小图片最大宽度 */
+            .students-img-container {
+                max-width: 600px;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .content-wrapper {
+                flex-direction: column;
+            }
+            .sidebar {
+                width: 100%;
+                margin-bottom: 20px;
+                padding: 10px 20px;
+            }
+            /* 移动端头像适配 */
+            .sidebar img.avatar {
+                max-width: 250px;
+            }
+            .pageviews {
+                display: none !important;
+            }
+            /* 移动端导航优化 */
+            .top-nav {
+                padding: 10px 15px;
+                /* 移动端改为上下排列 */
+                flex-direction: column;
+                align-items: flex-start;
+                height: auto;
+            }
+            .logo {
+                width: 100px;
+                margin-bottom: 8px;
+            }
+            .logo img {
+                height: 20px;
+            }
+            .top-nav-menu {
+                margin-left: 0;
+                gap: 15px;
+                width: 100%;
+                justify-content: flex-start;
+            }
+            .top-nav-menu a {
+                font-size: 14px;
+            }
+            /* 主体内容padding适配 */
+            .content-wrapper {
+                padding-top: 120px;
+            }
+            /* 移动端图片占满宽度 */
+            .students-img-container {
+                max-width: 100%;
+                margin: 0 auto; /* 移动端居中 */
+            }
+        }
+
+        /* 小屏手机额外适配 */
+        @media (max-width: 480px) {
+            .top-nav-menu {
+                gap: 10px;
+            }
+            .top-nav-menu a {
+                font-size: 13px;
+            }
+            /* 小屏头像适配 */
+            .sidebar img.avatar {
+                max-width: 200px;
+            }
+        }
+    </style>
   </head>
 
-
 <body>
-    <!-- 顶部导航栏 - 全屏铺满，左侧显示logo -->
+    <!-- 顶部导航栏 - 重构布局 -->
     <div class="top-nav">
         <div class="logo">
-            <!-- 显示学校logo，替换为实际图片链接 -->
             <img src="./imgs/labicon.png">
         </div>
         <div class="top-nav-menu">
@@ -34,10 +340,11 @@
 
     <!-- 主体内容 -->
     <div class="content-wrapper">
-        <!-- 侧边栏 - 显示Guorui Xie名字 -->
+        <!-- 侧边栏 -->
         <div class="sidebar">
-            <img src="./imgs/avatar.jpg" alt="Guorui Xie" style="margin-top: 10px;">
-            <h1>Guorui Xie</h1> <!-- 显示名字 -->
+            <!-- 给头像添加avatar类，用于专门的样式控制 -->
+            <img src="./imgs/avatar.jpg" alt="Guorui Xie" class="avatar">
+            <h1>Guorui Xie</h1>
             <div class="position">
                 Assistant Researcher(Professor)
             </div>
@@ -86,7 +393,7 @@
                 </ul>
             </section>
 
-            <!-- Selected Publication 部分 - 主题色边框区分重点会议 -->
+            <!-- Selected Publication 部分 -->
             <section id="publication" class="section">
                 <h2>Selected Publication</h2>
                 <p>
@@ -131,12 +438,12 @@
                 </ul>
             </section>
 
-            <!-- Students 部分 -->
+            <!-- Students 部分 - 图片适配修复 -->
             <section id="students" class="section">
                 <h2>Students</h2>
-                <img src="./imgs/group.png"
-                alt="Students"
-                style="object-fit:contain; width: 600px; height: auto;"/>
+                <div class="students-img-container">
+                    <img src="./imgs/group.png" alt="Students"/>
+                </div>
             </section>
 
             <!-- Services 部分 -->
