@@ -112,10 +112,9 @@ body {
 
 /* Pageviews样式（保留原有逻辑） */
 .pageviews {
-    position: fixed;
+/*    position: fixed;
     left: 20px;
-    bottom: 20px;
-    font-size: 12px;
+    bottom: 20px;*/
     color: #666;
     z-index: 99;
     background-color: #fff;
