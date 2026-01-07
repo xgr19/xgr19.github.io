@@ -135,11 +135,11 @@
         }
 
         /* Pageviews样式 - 移除边框 + 精准居中对齐 */
-        .pageviews {
+        .sidebar .pageviews {
             color: #666;
             z-index: 99;
             background-color: #fff;
-            padding: 10px 0; /* 只保留上下内边距，移除左右内边距避免偏移 */
+            padding: 1px 0; /* 只保留上下内边距，移除左右内边距避免偏移 */
             border-radius: 4px;
             display: block;
             margin: 0 auto; /* 水平居中 */
@@ -212,7 +212,6 @@
           background-color: #fff0e6; /* 微调背景色，更清爽 */
           color: #c05000; /* 加深文字色，提升对比度 */
           border: 1px solid rgba(192, 80, 0, 0.3); /* 边框色同步加深，视觉更统一 */
-          font-weight: 600; /* 可选：增加字体粗细，进一步提升可读性 */
         }
         /* ========== /核心修改 ========== */
         .pub-tag.ccf {
@@ -274,10 +273,6 @@
                 margin-bottom: 20px;
                 padding: 10px 20px;
             }
-            /* 移动端头像适配 */
-            .sidebar img.avatar {
-                max-width: 250px;
-            }
             .pageviews {
                 display: none !important;
             }
@@ -324,9 +319,8 @@
             .top-nav-menu a {
                 font-size: 13px;
             }
-            /* 小屏头像适配 */
-            .sidebar img.avatar {
-                max-width: 200px;
+            .pageviews {
+                display: none !important;
             }
         }
     </style>
@@ -412,35 +406,35 @@
                     <li>
                         Defending against Traffic Analysis Attacks with Flexible In-Network Obfuscation<br/><strong>G. Xie</strong>, Q. Li, Z. Shi, G. Antichi, Y. Zhu, K. Li, C. Weng, S. Miano, Y. Jiang, and M. Xu.
                         <span class="tag-container">
-                            <span class="pub-tag important">USENIX NSDI2026</span>
+                            <span class="pub-tag important">USENIX NSDI 2026</span>
                             <span class="pub-tag ccf">CCF-A</span>
                         </span>
                     </li>
                     <li>
                         Intelligent In-Network Attack Detection on Programmable Switches with Soterv2<br/><strong>G. Xie</strong>, Q. Li, C. Cui, et al.
                         <span class="tag-container">
-                            <span class="pub-tag">TDSC2024</span>
+                            <span class="pub-tag">TDSC 2024</span>
                             <span class="pub-tag ccf">CCF-A</span>
                         </span>
                     </li>
                     <li>
                         Generating neural networks for diverse networking classification tasks via hardware-aware neural architecture search<br/><strong>G. Xie</strong>, Q. Li, Z. Shi, et al.
                         <span class="tag-container">
-                            <span class="pub-tag">TC2023</span>
+                            <span class="pub-tag">TC 2023</span>
                             <span class="pub-tag ccf">CCF-A</span>
                         </span>
                     </li>
                     <li>
                         Empowering in-network classification in programmable switches by binary decision tree and knowledge distillation<br/><strong>G. Xie</strong>, Q. Li, G. Duan, J. Lin, et al.
                         <span class="tag-container">
-                            <span class="pub-tag">ToN2023</span>
+                            <span class="pub-tag">ToN 2023</span>
                             <span class="pub-tag ccf">CCF-A</span>
                         </span>
                     </li>
                     <li>
                         Mousika: enable general in-network intelligence in programmable switches by knowledge distillation<br/><strong>G. Xie</strong>, Q. Li, Y. Dong, G. Duan, et al.
                         <span class="tag-container">
-                            <span class="pub-tag">INFOCOM2022</span>
+                            <span class="pub-tag">INFOCOM 2022</span>
                             <span class="pub-tag ccf">CCF-A</span>
                         </span>
                     </li>
@@ -460,7 +454,7 @@
                 <h2>Services</h2>
                 <p>
                     TPC Member of <a href="https://conferences.sigcomm.org/co-next/2026/">ACM CoNEXT26</a><br/>
-                Reviewer of IEEE JSAC, TDSC, Computer Networks, WWW25-26<br/>
+                Reviewer of IEEE JSAC, TDSC, Computer Networks, WWW25-26, etc.<br/>
                 CCF分布式计算与系统、互联网专委会执行委员
                 </p>
             </section>
